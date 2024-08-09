@@ -1,0 +1,101 @@
+.user-level-info{
+	display: flex;
+	width: 90%;
+    padding: 10px 16px;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 6px;
+	background:  #FAFAFA;
+	box-shadow: 2px 2px 10px 5px rgba(143, 190, 198, 0.25);
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.level-name{
+    color: var(--main-text-color);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.consumption-amount{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.deadline-tips{
+    color:#888;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.level-icon{
+    width: 25px;
+    height: 23px;
+}
+.list-content{
+    padding:10px  16px;
+	background-color: #fff;
+}
+.integral-item{
+    border-bottom: 1px solid #f5f5f5;
+	// margin:5px;
+}
+.h5-integral-row{
+	padding:4px 10px;
+}
+
+.list-content-title{
+	padding:7px 16px;
+	color: #888;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.order-date{
+	color: var(--main-text-color);
+	font-size: 14px;
+	letter-spacing: 0.5px;
+}
+.discount-price{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.order-number{
+    color: var(--main-text-color);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+}
+.pc-user-discount-info{
+	display: flex;
+	width: 90%;
+    padding: 10px 16px;
+	flex-direction: column;
+	border-radius: 6px;
+	background:  #FAFAFA;
+	box-shadow: 2px 2px 10px 5px rgba(143, 190, 198, 0.25);
+	box-sizing: border-box;
+	margin: 20px auto;
+}
+//---------------------积分 pc
+.pc-mt5{
+		margin:0 0 5px  0;
+}
+//---------------------积分 mb
+.mb-mt10{
+		margin:10px  0;
+}
+.mb-pt10{
+		padding:10px 0 0  0;
+}
+.mb-border-bottom{
+    border-bottom: 1px solid white;
+	
+}
+.mb-border-left{
+    border-left: 1px solid white;
+}

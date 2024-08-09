@@ -1,0 +1,253 @@
+.bgfa {
+  background-color: #fafafa;
+}
+
+.act-banner {
+  width: 100%;
+  position: relative;
+  height: 150px;
+}
+.act-banner-img {
+  width: 100%;
+  height: 100%;
+}
+.activitiy-time-out {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.activitiy-time-out-title {
+  color: #fff;
+}
+.activitiy-time-out-time {
+  margin-top: 20px;
+  color: #fff;
+}
+.act-tips {
+  border-radius: 3px;
+  display: inline-flex;
+  padding: 1px 5px;
+  justify-content: center;
+  align-items: center;
+  color: #f04646;
+  background-color: #fdf6ec;
+  border: 1px solid #f04646;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.act-content {
+  padding: 10px 16px;
+}
+.group-targat-title {
+  color: #ea5455;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.limited-preferential-left-border {
+  width: 3px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.compliance {
+  font-weight: 700;
+}
+.target-Amount {
+  color: #888;
+  margin-top: 2px;
+  font-size: 12px;
+}
+.goods-des-left-border {
+  height: 16px;
+}
+
+.top-back-box {
+  // display: flex;
+  // justify-content: space-around;
+  border-top: 1px solid #f5f5f5;
+  background-color: #fff;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
+  bottom: 0;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+.group-name {
+  font-size: 18px;
+}
+.group-title-dec {
+  font-size: 14px;
+  word-break:break-all;
+	word-wrap:break-word;
+}
+.sale-amount {
+  font-size: 22px;
+}
+.group-order-font {
+  font-size: 18px;
+}
+.sale-target-box {
+  margin-left: 15px;
+}
+.on-line {
+  height: 1px;
+  background-color: #d1d4d9;
+  margin: 10px 0;
+}
+.goods-title-tips {
+  font-size: 18px;
+}
+.limited-time-preferential-left-border {
+  width: 2px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+.act-go-buy {
+  // margin-top: 25rpx;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: #FF6154;
+  border-radius: 6px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.back-buy-anchor {
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: #FF6154;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.activity-end {
+  background-color: rgba(0, 0, 0, .12);
+  color: rgba(0, 0, 0, .38);
+}
+
+.back-buy-top {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-text {
+  font-size: 12px;
+  color: #979797;
+}
+
+.countDown-end-tips {
+  font-size: 12px;
+}
+
+.act-time-end-tips {
+  font-size: 14px;
+}
+
+// 分隔线 pc-----------------------------------------
+.pc-groop-left {
+  width: 792px;
+}
+.pc-act-banner {
+  height: 329px;
+}
+.pc-goods-des-left-border {
+  height: 18px;
+}
+.pc-goods-des-left-font {
+  font-size: 20px;
+}
+.pc-goods-content-box {
+  background-color: #f5f5f5;
+}
+.pc-product-one {
+  padding: 16px;
+}
+.sort-split {
+  background-color: #ccc;
+  margin: 0 15px;
+}
+.sort-all {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #272727;
+  .sort-btn {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  .sortOn {
+    color: #00b1c9;
+    font-size: 16px;
+  }
+}
+.pc-goods-sort {
+  padding: 10px 0;
+}
+.pc-groop-right {
+  width: 375px;
+  height: 600px;
+  padding-top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top:140px;
+}
+.pc-target {
+  background-color: #fafafa;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.pc-goods-correlation {
+  background-color: #f5f5f5;
+  padding: 0 10px;
+}
+.pc-act-time {
+  font-size: 12px;
+}
+.pc-social-share{
+   height:40px;
+   font-size: 14px;
+  color: #666;
+  margin-right: 8px;
+}
+.pc-limited-rush-buying{
+  font-size: 25px;
+}
+.h5-limited-rush-buying{
+  font-size: 25px;
+}
+
+
+

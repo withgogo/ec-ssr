@@ -1,0 +1,54 @@
+// .bird-gift{
+// 	background-color: #fff;
+// }
+.bird-gift-rule{
+	color: #979797;
+	font-size:14px;
+}
+.bird-gift-act-title-box{
+	display:flex;
+	justify-content: space-between;
+}
+.bird-gift-list{
+	padding-top:10px;
+}
+.bird-gift-act-title{
+	font-size:15px;
+	width:50%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.bird-gift-goods{
+	display:flex;
+}
+.bird-gift-time{
+	font-size:13px;
+}
+.bird-gift-goods-cover{
+	width:75px;
+	height:75px;
+	margin-right: 10px;
+}
+.border-bottom{
+	border-bottom:1px solid #f5f5f5;
+}
+.padding{
+	padding:10px 0;
+}
+.bird-gift-info{
+	width:275px;
+}
+.bird-gift-goodsName{
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.bird-gift-description{
+	font-size:15px;
+}
+.pc-gift-title{
+	font-size: 1;
+}

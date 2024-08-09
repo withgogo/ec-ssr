@@ -1,0 +1,129 @@
+
+.member-pages{
+	width: 100%;
+	height: 237px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding:16px;
+	box-sizing: border-box;
+}
+
+.level-name{
+	color: #F9F9F9;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+.progress-bar{
+	width:100% ;
+	border-radius: 7px;
+	background: #EBE9F1;
+	height: 8px;
+	margin: 10px 0;
+	overflow: hidden;
+}
+.target-progress-bar{
+	height: 8px;
+	border-radius: 7px 0px 0px 7px;
+	background: linear-gradient(90deg, #EB6162 55.57%, #F09899 98.11%);
+	transition: width 1s ease-in-out;
+}
+.level-rule-info{
+	display: flex;
+	padding: 16px;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 3px;
+	background:  #FAFAFA;
+	/* Card Shadow */
+	box-shadow: 1px 1px 5px 3px rgba(143, 190, 198, 0.25);
+	box-sizing: border-box;
+	margin-top: 8px;
+}
+.temporary-text{
+	color: var(--main-color);
+}
+.more-discounts-tips{
+	color: var(--main-color);
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.consumption-amount{
+	color: var(--main-text-color);
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-top: 12px ;
+}
+.consumption-amount-total{
+	color: var(--Red, #EB6162);
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.consumption-amount-target{
+	color: var(--main-text-color);
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	
+}
+.deadline-tips{
+	color:  #888;
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.purchase-introduce{
+	display: inline-block;
+	color: var(--main-text-color);
+	letter-spacing: 0.5px;
+}
+.purchase-introduce-title{
+	height: 30px; 
+	font-weight:700;
+	display: flex;
+	align-items: center;
+	color: #48484A;
+	margin-top: 12px;
+}
+
+.limited-time-preferential-left-border{
+	width: 3px;
+	height: 12px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.member-Rule{
+	background: #D9D9D9;
+	border-radius: 5px;
+	padding: 5px 8px;
+}
+
+
+// --------------
+.pc-level-rule-info{
+	display: flex;
+	padding: 16px;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 3px;
+	background:  #FAFAFA;
+	/* Card Shadow */
+	box-shadow: 1px 1px 5px 3px rgba(143, 190, 198, 0.25);
+	box-sizing: border-box;
+}
+.pc-level-name{
+	color: #F9F9F9;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding-left: 20px;
+	padding-top: 8px;
+}

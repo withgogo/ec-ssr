@@ -1,0 +1,167 @@
+.user-page {
+    height: calc(100vh - 50px);
+}
+
+.user-info {
+    padding: 16px;
+}
+
+.user-name {
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.user-member-rule {
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: 0.5px;
+}
+.login-btn {
+	width: 90%;
+	border-radius: 50px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	background-color: var(--main-color);
+}
+.user-login-login {
+    display: flex;
+    flex-direction: column;
+    color: #5f5f5f;
+    font-size: 32rpx;
+}
+ .user-integral {
+        position: relative;
+    }
+.split-line {
+	width: 1px;
+	height: 48px;
+	background-color: #f5f5f5;
+}
+.go-discount {
+        position: absolute;
+        bottom: -4px;
+        right: 0;
+        color: #888;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+}
+.user-integral-text-tips {
+	margin-bottom: 4px;
+}
+.user-integral-text {
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+.user-integral-box {
+    padding: 8px 8px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 8px 0;  
+}
+.order-item-text {
+	color: FFF;
+}
+.user-order-section {
+    display: flex;
+    align-content: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: var(--main-color); 
+}
+.user-order-section-logo {
+	@include size(28px, 28px);
+}
+.order-item-text-other {
+    color: #484848;
+}
+
+.other-tab-list-row {
+    width: 33%;
+}
+
+.user-privacy-icon {
+    @include size(20px, 20px);
+}
+
+.user-section-privacy {
+    background-color: #fff;
+    @include size(100%, auto);
+    padding: 12px 16px;
+    border-bottom: 2px solid #f8f8f8;
+    box-sizing: border-box;
+}
+
+.user-popup-content-more {
+    padding: 50px 40px;
+}
+
+.scroll-view {
+    width: 100%;
+    // height: calc(100vh -100px);
+    overflow: scroll;
+}
+
+.user-bind-providers {
+    width: 290px;
+}
+
+.user-provider-close-btn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    @include size(104px, 28px);
+}
+.pc-border-left{
+	width: 12%;
+	border-top:1px solid #ccc;
+}
+.pc-div-left{
+	text-align: center;
+	border: 1px solid #ccc;
+	border-top:none;
+	padding: 10px 0;
+}
+.pc-div-left{
+	text-align: center;
+	border: 1px solid #ccc;
+	border-top:none;
+	padding: 10px 0;
+}
+.pc-onwer-color{
+	color:#00c2c1;
+}
+.span-left:hover{
+	color:#00c2c1;
+}
+
+// -------------账号设置---------
+
+
+.pc-item {
+	width: 200px;
+}
+.pc-cancel{
+	border: 1px solid #ccc;
+	margin-right: 5px;
+}
+.pc-mt10{
+    margin-top: 10px;
+}
+.pc-ml5{
+    margin-left: 5px;
+}
+
+.pc-center-top {
+	@include center-x;
+}

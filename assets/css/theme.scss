@@ -1,0 +1,75 @@
+// 主题颜色
+@import "variable.scss";
+// 会员中心抽屉
+.goods-title{
+	color: var(--goods-title);
+}
+// 主要文字颜色
+.main-text{
+	color: var(--main-color);
+}
+// 其他文字颜色
+.main-text-other{
+	color: var(--main-text-color);
+}
+// 背景颜色
+.main-bg-color{
+	background-color:  var(--main-color);
+}
+// 白色背景
+.white-bg-color{
+	   background-color: white;
+}
+
+// 不重要文字颜色
+.default-text{
+	color: var(--defualt-color);
+}
+
+.slogan{
+	color: var(--slogan);
+	word-break:break-all;
+	word-wrap:break-word;
+}
+// 价格
+.price{
+	color: var(--price);
+	font-family: "SF Pro";
+}
+
+.buy{
+	background-color: var(--buy);
+}
+
+// 加入购物车按钮
+.add-cart{
+	background-color: var(--add-cart);
+}
+
+
+.login-btn{
+	color: var(--text-color-white);
+	background-color: var(--main-color);
+}
+// 次价格
+.dispensable-price{
+	color: var(--main-color);
+}
+// 次标题
+.dispensable-text{
+	color: var(--main-color);
+}	
+// slogin标题颜色
+.slogin-title{
+	color: var(--main-color);
+}
+// h5 / pc 导航按钮的颜色
+.nav-text{
+	color: var(--main-color);
+}
+
+
+
+
+
+

@@ -1,0 +1,232 @@
+
+
+
+.red-hand_ico {
+	animation: widthChange 4s infinite;
+}
+.people-hand_ico {
+	// animation: rotateChange 1s infinite;
+}
+
+@keyframes rotateChange {
+	0% {
+		transform: rotate(10deg);
+	}
+	35% {
+		transform: rotate(10deg);
+	}
+	65% {
+		transform: rotate(-10deg);
+	}
+	100% {
+		transform: rotate(10deg);
+	}
+}
+@keyframes widthChange {
+	0% {
+		transform: scale(1);
+	}
+
+	30% {
+		transform: scale(1.1);
+	}
+
+	60% {
+		transform: scale(1);
+	}
+
+	80% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes openRedPacket {
+	0% {
+		
+		 transform: scale(0.5);
+		 opacity: 0.5;
+	}
+
+	100% {
+		 transform: scale(1);
+		 opacity: 1;
+	}
+}
+
+.bg-page{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height:auto;
+	background-color: #1469A6;
+}
+.page-content{
+	width: 375px;
+	position: relative;
+    // height: calc(100vh - 44px);
+}
+.title-red{
+	// width: 700rpx;
+	height: 130px;
+}
+.img-box-view{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.people-red{
+	width: 50%;
+}
+.people-img{
+	position: absolute;
+	top: 160px;
+}
+.red-packet{
+	width: 250px;
+	height: 77px;
+}
+
+.btn-img{
+	width: 160px;
+	height: 60px;
+}
+.red-packet-btn-img{
+	width: 100px;
+	height: 40px;
+}
+.pay-btn-box{
+	justify-content: space-around;
+	align-items: center;
+	// margin: 80rpx 0;
+	width:750rpx;
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
+}
+.pay-btn{
+	font-size: 15px;
+	padding: 7px 0;
+	// width:750rpx;
+	text-align: center;
+	color: #fff;
+	background-color: #747474;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.computed-pay-price{
+	font-size: 13px;
+}
+.pay-btn-active{
+	background-color:#f47952 ;
+}
+.open-packet-box{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	position: fixed;
+	width:375px;
+	height: calc(100vh - 0px);
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+}
+.packet-box{
+	padding:15px;
+	position: relative;
+	animation: openRedPacket 1s ;
+	color: #022A63;
+}
+.h5-packet-box{
+	height: 500px;
+	width: 300px;
+}
+.pc-packet-box{
+	height: 450px;
+	width: 270px;
+}
+.pc-top-place{
+	height:180px;
+}
+.h5-top-place{
+	height: 210px;
+}
+.pc-btn-place{
+	height: 90px;
+}
+.h5-btn-place{
+	height: 100px;
+}
+.open-packet-content{
+	text-align: center;
+	height: 100px;
+}
+.open-packet-content-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #022A63;
+	
+  }
+  .content-text{
+	 font-size: 30px; 
+  }
+  .open-packet-rpAmount{
+	  font-size: 50px;
+	  text-shadow: 2px 0px 10px #fff;
+  }
+.btn-share-packet{
+	font-size: 15px;
+	width: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 7px;
+	background-color:#5a4df3;
+	color: #fff;
+	border-radius: 5px;
+}
+.close-off{
+	width: 25px;
+	height: 25px;
+	display: flex;
+    background-color: #b2b2b2;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+	right: 60px !important;
+	top:5px !important;
+	cursor: pointer;
+    border-radius: 50%;
+}
+.packet-box-btn{
+	cursor: pointer;
+	// width: 460rpx;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+.pc-input{
+	height: 50px;
+	border-radius: 30px;
+}
+.red-envelope-description{
+	padding:0px 13px;
+	font-size: 12px;
+}
+.red-envelope-description-title{
+	font-weight: 700;
+	font-size: 15px;
+}
+.take-note-of{
+	font-size: 12px;
+}
+.mtop{
+	margin-top: 10px;
+}
+.h5-social-share{
+    padding: 10px 20px;
+}

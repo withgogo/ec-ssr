@@ -1,0 +1,28 @@
+
+$color-defualt: #888 ;  
+$color-price: #E85E76 ;
+$main-color: #00ACC8 ;
+
+// 其他公用的颜色
+:root {  
+	 --theme-color: #333; 
+	 --theme-background: #eee; 
+	 --main-text-color:#484848 ;  //全局主要文字颜色 ，
+	 --defualt-color:#A2A2A2;     //默认文字颜色
+	 --goods-title: #5E5873;   //商品title 颜色
+	 --price:#D44F49;         //价格
+	 --buy:#E53E3E;    // 立即购买
+	 --slogan:#D44F49;
+	 --add-cart:#EB901D ; //加入购物车 
+	}
+
+/* 更改dark类名下变量的取值 */
+.dark{  
+	--main-color:#00ACC8;    // 主题颜色
+	--text-color-white:#fff;   //白色
+ }
+/* 更改pink类名下变量的取值 */
+.pink{  
+	--main-color:pink ; 
+	--text-color-white:#fff;
+}

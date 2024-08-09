@@ -1,0 +1,20 @@
+// element
+@import "element-plus/dist/index.css";
+
+@import 'element-plus/theme-chalk/index.css';
+@import "vant/lib/index.css";
+// @import "vue-social-share/dist/client.css";
+
+// common
+@import "common.scss";
+@import "h5-van-popup.scss";
+
+@import "override.scss";
+
+// flex
+@import "flexOther.scss";
+
+@import "variable.scss";
+
+// 主题颜色
+@import "theme.scss";

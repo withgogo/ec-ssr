@@ -1,0 +1,182 @@
+.pc-ml5 {
+  margin-left: 5px;
+}
+
+// ------------h5----
+.h5-address-div {
+  border-bottom: 1px solid #eee;
+  // background-color: #f5f5f5;
+}
+
+.h5-address-edit {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.h5-address-mg {
+  padding: 10px 16px;
+}
+
+.h5-address-center {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(176 174 176);
+  border-radius: 50%;
+  color: white;
+}
+
+.h5-ml8 {
+  margin-left: 8px;
+}
+
+.h5-name-tel {
+  align-items: baseline;
+  display: flex;
+}
+
+.h5-add {
+  position: fixed;
+  bottom: 0;
+  width: 375px;
+  height: 60px;
+}
+
+.h5-btn {
+  box-shadow: 0upx 5px 10px rgba(0, 0, 0, 0.4);
+  width: 70%;
+  height: 40px;
+  border-radius: 80px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.h5-icon {
+  height: 80px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.h5-address-row {
+  padding: 10px;
+  border-top: solid 1px #eee;
+}
+
+.h5-row-nominal {
+  width: 33%;
+  font-weight: 200;
+  font-size: 15px;
+  align-items: center;
+}
+
+.input {
+  border: none;
+  font-size: 14px;
+  width: 100%;
+  min-height: 40px;
+  border-radius: 2px;
+  text-indent: 1em;
+  background-color: #fff;
+}
+
+.input-place {
+  color: #a2a2a2;
+}
+
+input::placeholder {
+  color: #a2a2a2;
+  font-size: 14px;
+  /* 将颜色代码修改为需要的颜色 */
+}
+
+textarea::placeholder {
+  color: #a2a2a2;
+  font-size: 14px;
+  /* 将颜色代码修改为需要的颜色 */
+}
+
+.h5-del-address {
+  color: var(--main-color);
+  background-color: rgba(255, 0, 0, 0.05);
+  padding: 15px 0;
+}
+
+////--------地址---和pos一样的样式
+.address-list {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.delivery-name {
+  padding: 4px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #909399;
+}
+
+.activedDelivery {
+  color: white;
+  background: var(--main-color);
+  border-color:var(--main-color);
+}
+.addr-hd {
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0 0 5px;
+  margin-bottom: 5px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.addr-item-wrapper {
+  position: relative;
+  width:250px;
+  margin: 0 14px 0px 0;
+  color: #666;
+  cursor: pointer;
+
+}
+.default-tip {
+  background: red;
+  color: #fff;
+  position: absolute;
+  top: 7px;
+  right: 21px;
+  padding: 0 2px;
+  text-decoration: none;
+  opacity: .7;
+  z-index: 3;
+}
+
+.inner-infos {
+  z-index: 2;
+  position: relative;
+  padding: 10px 10px 0px 15px;
+  overflow: hidden;
+  min-height: 110px;
+}
+
+.inner-infos-default {
+  background: url('/public/img/address/address-default.png') no-repeat;
+}
+
+.inner-activ {
+  background: url('/public/img/address/address-activ.png') no-repeat;
+  // background-size: 100% 100%;
+}
+
+.address-info:hover {
+  background: url('/public/img/address/address-activ.png') no-repeat;
+}
+
+.modify-operation {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+input, input:focus,
+textarea, textarea:focus,
+select, select:focus {
+  font-size: 14px !important;
+}

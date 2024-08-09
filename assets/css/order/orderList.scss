@@ -1,0 +1,193 @@
+.pc-user-info-mt{
+	margin:7px 7px;
+}
+.pc-user-info{
+	width:20%;
+}
+.pc-order-info{
+	width:40%;
+}
+.pc-order-img-size{
+	width:88px;
+	height:88px;
+}
+
+.pc-look-order{
+	border:1px solid rgb(215 215 215);
+	border-radius:5px;
+}
+.pc-img-size{
+	width:30px;
+	height:30px;
+}
+.pc-icon{
+	border:2px solid white;
+	border-radius: 50%;
+	padding: 5px;
+}
+.pc-mt20{
+	margin:20px 3px;
+}
+
+.pc-mt10{
+	padding:10px 0;
+}
+.pc-my-order{
+	padding:10px 0;
+	// border-bottom:1px solid black;
+}
+.pc-buy-goods{
+	border:1px solid black;
+}
+.pc-border{
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+}
+.pc-border-right{
+	border-right: 1px solid black;
+}
+
+.pc-order-count {
+	right: 0;
+    margin-left: -10px;
+	top: 10px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	font-size: 12px;
+	color: #fff;
+	background: #ff5d6a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pc-order-border{
+	border-bottom: 1px solid #DDD;
+	padding: 10px 0;
+}
+.pc-child-width{
+	padding-left:40px ;width: 320px;
+	
+}
+.pc-order-width{
+	width:88px;
+	height:88px;
+}
+.pc-text-line{
+	display: inline-block;
+	width: 120px;
+	text-align: end;
+	padding-right: 10px;
+	line-height: 25px;
+}
+.pc-order-goods-border{
+	border: 1px solid #DDD;padding: 20px;margin: 10px 0;
+  }
+  .pc-extra-order{
+	background-color: var(--main-color);padding: 10px;
+  }
+
+.pc-order-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+//h5---------------------------------------------------
+.h5-order-list{
+	width: 92%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 14px 0px #D8D8D8;
+}
+.h5-searchbar-box{
+	align-items: center;
+	width: 85%;
+	justify-content: center;
+	margin: 15px auto 10px auto;
+}
+.h5-searchbar__box {
+	display: flex;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	flex: 1;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	height: 36px;
+	padding: 5px 10px;
+	border-width: 0.5px;
+	border-style: solid;
+	border-color:#c8c7cc;
+	border-radius: 15px;
+}
+
+.h5-searchbar__box-icon-search {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+	width: 32px;
+	justify-content: center;
+	align-items: center;
+	color:#06B4FD;
+}
+
+.h5-searchbar__box-search-input {
+    border: none;
+    font-size: 13px;
+    /* width: 90%; */
+    background-color: #EEF3F4;
+}
+
+.h5-searchbar__box-icon-clear {
+	align-items: center;
+	line-height: 24px;
+	padding-left: 5px;
+}
+
+.h5-searchbar__text-placeholder {
+	font-size: 13px;
+	color: #06B4FD;
+	margin-left: 5px;
+}
+
+.h5-searchbar__cancel {
+	padding-left: 10px;
+	line-height: 36px;
+	font-size: 13px;
+}
+.searchbar_btn{
+	width:40px;
+	font-size: 14px;
+	text-align: center;
+	color: var(--main-color);
+}
+
+
+input::placeholder {
+    color: #A2A2A2;
+    font-size: 13px;
+    /* 将颜色代码修改为需要的颜色 */
+}
+.h5-order-status{
+	font-size: 13px;
+	color: #E53E3E;
+}
+.h5-pay-btn{
+	border-color: #E53E3E;
+	color: #E53E3E;
+	max-width: 100px;
+	padding: 4px 10px;
+}
+.h5-addTime-box {
+	background-color: #f3f3f3;
+    margin-top: 10px;
+	text-align: center;
+    box-sizing: border-box;
+	font-size: 14px;
+	padding: 5px;
+}

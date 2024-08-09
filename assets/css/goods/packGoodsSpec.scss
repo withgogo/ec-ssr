@@ -1,0 +1,171 @@
+.package-goods-main {
+    margin-bottom: 15px;
+  }
+  .on-line {
+    height: 1px;
+    background-color: #d1d4d9;
+    margin: 10px 0;
+  }
+  .goods-spec-top-tips {
+    font-size: 16px;
+  }
+  .package-goods-main-img {
+    @include size(50px, 50px);
+  }
+  .package-goods-img {
+    margin-right: 12px;
+  }
+  .package-goods-name {
+    font-size: 16px;
+    @include ellipsis(90%);
+  }
+  .default-price-online {
+    font-size: 14px;
+    text-decoration: line-through;
+  }
+  .package-goods-stock {
+    font-size: 14px;
+  }
+  
+  .package-goods-main-img-child {
+    @include size(80px, 80px);
+  }
+  
+  .chose-spec-text {
+    font-size: 14px;
+    color: #922703;
+    display:inline-flex ;
+    padding: 4px 12px;
+    align-items: center;
+    border-radius: 5px;
+    background: #f6e05e;
+  }
+  .package-goods-item{
+      padding-left: 20px;
+  }
+  .input-number{
+   border:1px solid #dcdfe6;
+   border-radius: 5px;
+   font-size: 16px;
+  }
+  .input-number-icon{
+      padding: 6px 6px;
+  }
+  .h5-input-number-icon{
+    padding: 8px 6px;
+  }
+  .pc-input-number-icon{
+    padding: 10px 6px;
+  }
+  .reduce-icon{
+      border-right:1px solid  #dcdfe6;
+  }
+  .add-icon{
+      border-left:1px solid  #dcdfe6; 
+  }
+  .goods-chose-count{
+      margin-top: 16px;
+      margin-bottom: 8px;
+  }
+  .add-buy-box-bottom{
+  
+  }
+  .add-cart-buy{
+      color: #fff;
+      font-size: 16px;
+      padding: 8px 0;
+      border-radius: 5px;
+  }
+  .goods-amount{
+      font-size: 16px;
+      margin-top: 10px;
+  }
+  .add-buy-box-bottom{
+      margin-top:10px;
+  }
+  .package-goods-spec-val{
+      font-size: 12px;
+  }
+  .combinPlan-goods-choseCount{
+      font-size: 12px;
+      margin-left: 5px;
+  }
+  .package-goods-spec-content{
+      color: #5E5873;
+  }
+  .package-goods-main-price{
+      margin-top: 5px;
+  }
+  .item_value_name{
+      display: inline-flex;
+  }
+  .package-goods-spec{
+      font-size: 14px;
+  }
+  .package-item-content-spec{
+      padding: 7px 8px;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+  }
+
+ .h5-package-item-content-spec{
+  padding: 6px 8px;
+  }
+
+  .pc-spec-item{
+    padding: 10px 22px;
+  }
+  .default-package{
+    min-width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .show-spec-val{
+      margin-bottom: 8px;
+  }
+  .combinPlan-goods-spec-choseCount{
+      width: 130px;
+      margin-left: 8px;
+  }
+  .actived-spec-val{
+      background-color: #FEEBCB;
+      border-color: #EB901D;
+  }
+  .confirm-spec-btn{
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 0;
+      border-radius: 5px;
+      background-color: var(--main-color);
+  }
+  .spec-scroll{
+      height: 300px; 
+      overflow-y: scroll; 
+      overflow: auto; 
+  }
+  .packGoods-scroll{
+    height: 300px; 
+    overflow-y: scroll; 
+    overflow: auto; 
+  }
+
+  .common-goods-price{
+    font-size: 16px;
+  }
+  .common-goods-spec-val{
+    min-width: 40px;
+    display: inline-flex;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .goods-spec-cg-title{
+    margin-bottom: 8px;
+  }
+.chose-spec-content{
+  padding: 16px;
+}
+.goods-price-spec{
+  font-size: 16px;
+}

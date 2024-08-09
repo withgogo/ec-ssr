@@ -1,0 +1,129 @@
+.pages {
+  background-color: #fff;
+}
+.h5-amount {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+.h5-pay-mark-box {
+  padding: 10px 16px;
+}
+.h5-pay-mark {
+  font-size: 28rpx;
+  border: 1px solid #807c87;
+  color: #444444;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+.mark-activ {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+.checkbox-inner {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox-inner-activ {
+  border: 1px solid #007aff;
+}
+.is-fen-qi {
+  display: inline-block;
+}
+.h5-fen-qi {
+  margin-left: 20px;
+}
+.h5-select-lay-select-fenqi {
+  width: 100px;
+}
+.h5-credit-card-border {
+  border-bottom: 1px solid #eee;
+}
+.h5-credit-card-box {
+  padding: 10px 22px;
+}
+.h5-pay-btn {
+  @include size(240px, 40px);
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+
+// 支付成功页面
+.h5-is-change-card{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h5-to-view{
+  width: 120px;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 6px 0;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.h5-line-login{
+  background-color: #0ac04b;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 250px;
+  margin: 10px auto 0 auto;
+}
+
+.bind-mobile-title{
+  color:#00B1C9;
+  font-size:32rpx;
+}
+.h5-pause-apply{
+   width: 90%;
+}
+.h5-to-home-view{
+  background-color: #fff;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+.h5-to-view-btn{
+  margin-top: 30px;
+}
+//////pc-----------
+.pc-amount {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+.pc-pay-mark-box {
+  padding: 10px 16px;
+}
+
+.pc-pay-mark {
+  border: 1px solid #807c87;
+  color: #444444;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+.mark-activ {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}

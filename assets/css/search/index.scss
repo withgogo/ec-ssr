@@ -1,0 +1,151 @@
+
+.nav-bar {
+    width: 100%;
+    background-color: #fff;
+    height: 44px;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    padding: 0 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fafafa;
+}
+
+.search-input {
+    border: none;
+    font-size: 14px;
+    color: #5E5873;
+    text-indent: 0.8em;
+ 
+}
+
+
+.nav-bar-left-icon {
+    @include size(25px, 25px);
+    margin-right: 8px;
+}
+
+.goods-content-box {
+    padding: 10px 16px;
+}
+
+.h5-search-btn {
+    width: 50px;
+    height: 28px;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.h5-search-box {
+    height: 32px;
+    background-color: #E7E7E7;
+    border-radius: 6px;
+    padding: 0 2px;
+}
+
+.search-empty-img {
+    width: 135px;
+    height: 96px;
+}
+
+.search-empty {
+    color: #5E5873;
+    font-size: 16px;
+}
+
+.content-box {
+    min-height: calc(100vh - 46px);
+    margin-top: 2px;
+}
+
+.search-delete {
+    @include size(20px, 20px)
+}
+
+.search-history {
+    background-color: #fff;
+    padding: 16px;
+}
+
+.search-history-title {
+    font-size: 14px;
+}
+
+.search-history-list {
+    color: #5E5873;
+    font-size: 14px;
+}
+
+.search-history-item {
+    border-bottom: 1px solid #D1D4D9;
+    padding: 16px;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.search-empty-box {
+    transform: translateY(250px);
+}
+
+.search-hot-search {
+    padding: 10px 16px;
+}
+
+.h5-hot-text {
+    margin-right: 15px;
+}
+
+.history-list {
+    position: absolute;
+    width: 375px;
+    z-index: 8;
+    background-color: #fff;
+}
+
+
+// pc-----------
+.search-btn {
+    width: 76px;
+    height: 32px;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #5E5873;
+    /* 将颜色代码修改为需要的颜色 */
+}
+.pc-header-search-item {
+    padding: 4px 4px 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #D1D4D9;
+    background: #FFF;
+    width: 500px;
+
+}
+
+
+.search-correlation {
+    font-size: 14px;
+    color: var(--main-color);
+    margin-top: 8px;
+}
+
+.search-label {
+    color: #5E5873;
+}
+
+.search-val {
+    /* margin-right: 10px; */
+    min-width: 48px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pc-header-search{
+    margin-top: 20px;
+}

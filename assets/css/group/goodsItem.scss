@@ -1,0 +1,328 @@
+
+.product-goods {
+  // width: 100%;
+  border-radius: 7px;
+  background-color: #fafafa;
+  margin: 0 0 10px 0;
+  box-shadow: 0px 4px 14px 0px #D8D8D8;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.border{
+  border: 1px solid #d1d4d9;
+}
+
+.goods-info {
+  padding: 0px 10px;
+  flex: 1;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.goods-info-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.slogan-goodsAdWords {
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 超过部分隐藏 */
+  text-overflow: ellipsis; /* 添加省略号表示被裁切的内容 */
+  font-size: 13px;
+  color: #f06c7a;
+  padding: 0 5px;
+}
+
+.bottom-btn {
+  width: 90%;
+  position: absolute;
+  bottom: 10px;
+}
+.flex_between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.flex_start {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.buy-btn {
+  padding: 5px 0;
+  min-width: 96px;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 14px;
+}
+.logisticsType-box {
+  display: flex;
+  justify-content: flex-start;
+}
+.logisticsType {
+  font-size: 14px;
+  border: 1px solid #f06c7a;
+  color: #f06c7a;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.pc-goods-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+  box-sizing: border-box;
+}
+.product-3 {
+  width: 32%;
+  margin-right: 10px;
+  border: 1px solid #d1d4d9;
+  // height: 380px;
+}
+.product-4 {
+  width: 24%;
+  margin-right: 10px;
+  height: 360px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #d1d4d9;
+}
+
+.payType {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border-color: #00b1c9;
+  color: #00b1c9;
+}
+.pc-group-right {
+  margin-left: 20px;
+  width: 300px;
+  height: auto;
+  box-shadow: none;
+  .goods-detail {
+    padding: 1px;
+    width: 290px;
+  }
+  .fixed-group {
+    // border: 1px solid #f5f5f5;
+    // box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+    background-color: #fafafa;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .go-buy {
+    width: 270px;
+    padding: 10px 0;
+  }
+}
+.begin-time {
+  font-size: 12px;
+  color: #979797;
+}
+
+.grid-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.grid {
+  padding: 0 10px;
+  height: 40px;
+  color: #272727;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .text {
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    &.on {
+      font-size: 16px;
+    }
+  }
+}
+.act-slogan{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   font-size: 14px;
+   min-height:20px;
+}
+.act-description{
+  font-size: 14px;
+   @include ellipsisNum(2);
+   margin-bottom: 20px;
+}
+
+.uni-label-pointer {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pc-tab-category {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  padding: 8px 10px;
+  padding-left: 0px;
+}
+
+.pc-countdown-box {
+  width: 100%;
+  display: flex;
+  // justify-content: flex-end;
+}
+.product-3-list-buy {
+  width: 100%;
+  padding: 8px 0;
+  margin-top: 6px;
+  // margin: 0 auto;
+}
+.showMoney-showCount {
+  display: flex;
+  align-items: center;
+}
+
+.pc-product-one {
+  padding: 15px;
+  border: 1px solid #d1d4d9;
+}
+.h5-product-one {
+  padding: 9px 10px;
+  height: 105px;
+}
+// 团购
+.pc-product-more{
+    // padding: 15px;
+    margin-right: 12px;
+}
+// 其他商品
+.pc-product-more-other{
+  margin-right: 18px;
+}
+.pc-cover-product-more{
+   padding: 15px;
+   padding-top:0 ;
+}
+.h5-product-more{
+    padding: 10px;
+    padding-top:0 ;
+}
+.pc-new-bg {
+  background: #f5f5f5;
+}
+
+.pc-pay-btn {
+  height: 38px;
+}
+.h5-pay-btn {
+  height: 33px;
+}
+.h5-img-size-one {
+  width: 75px;
+  height: 75px;
+}
+.pc-img-size-one {
+  width: 100px;
+  height: 100px;
+}
+
+.h5-pd-none {
+  padding: 0;
+}
+.activity-end {
+  background-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.38);
+}
+.image-wrapper-goods{
+    position: relative;
+}
+.goods-tips{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    justify-content: flex-end;
+}
+.act-buy-btn{
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 0;
+}
+.goods-name{
+  @include ellipsisNum(2);
+  color:#5E5873;
+}
+.pc-goods-name{
+min-height: 44px;
+font-size:16px;
+margin-bottom: 4px;
+}
+.h5-goods-name{
+min-height: 40px;
+font-size:14px;
+}
+.default-act-goods-price{
+font-size: 12px;
+}
+.pc-default-act-goods-price{
+  font-size: 14px;
+}
+.act-goods-price{
+font-size: 20px;
+}
+.pc-big-goods-price{
+font-size: 24px;
+}
+.pc-other-goods-price{
+  font-size: 22px;
+}
+.pc-place-member{
+  height: 20px;
+  margin-bottom: 5px;
+}
+.h5-place-member{
+  height: 20px;
+  margin-bottom: 2px;
+}
+.h5-goods-info-box{
+   height: 120px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.pc-goods-info-box{
+  height: 235px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pc-default-price-line-height{
+   display: flex;
+   align-items: flex-end;
+   height: 30px;
+}
+

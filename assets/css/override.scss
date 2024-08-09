@@ -1,0 +1,179 @@
+// 覆盖ui lib样式
+.el-button.el-button--primary,
+.el-button.el-button--primary:focus,
+.el-button.el-button--primary::backdrop,
+.el-button.el-button--primary:hover {
+  color: #fff;
+  border-color: #00ACC8;
+  background-color: #00ACC8;
+}
+.el-tag.el-tag--primary {
+  background-color: #73d3e0;
+  color:#fff ;
+}
+.el-loading-spinner .path {
+  -webkit-animation: loading-dash 1.5s ease-in-out infinite;
+  animation: loading-dash 1.5s ease-in-out infinite;
+  stroke-dasharray: 90, 150;
+  stroke-dashoffset: 0;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke: #00ACC8 !important;
+}
+
+.el-loading-spinner .el-loading-text {
+  color: #00ACC8 !important;
+  margin: 3px 0;
+  font-size: 14px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nprogress .bar {
+  height: 2.5px !important; //进度条高度
+  background: rgba(255, 0, 0, 0.66) !important; //自定义颜色
+}
+
+.el-dialog__header {
+  padding-bottom: 0 !important;
+}
+
+.el-pagination.is-background .el-pager li {
+  border-radius: 50%;
+}
+
+.el-pagination.is-background .el-pager li.is-active {
+  background-color: #00ACC8 !important;
+}
+
+// vant 修改颜色
+:root:root {
+  // 顶部导航的返回icon  yanse 
+  --van-nav-bar-icon-color: #333;
+  // 顶部导航的返回icon  大小
+  --van-nav-bar-arrow-size: 20px;
+
+  // 顶部tabbar 的高度 :
+  --van-tabbar-height: 62px;
+  --van-tabbar-item-font-size: 14px;
+
+  --van-popup-round-radius: 6px
+}
+
+.el-pagination.is-background .el-pager li.is-active {
+  background-color: #00ACC8 !important; // 进行修改未选中背景和字体
+  // color: #fff;
+}
+
+.search-btn {
+  background-color: var(--main-color);
+}
+//普通按钮颜色
+.el-button:hover {
+  color: #00ACC8 !important;
+}
+// 按钮颜色为主题色 el-button type=primary的颜色 :hover
+.el-button--primary:hover  {
+ color: white !important;
+}
+// 按钮颜色为主题色 el-button type=primary的颜色
+.el-button--primary {
+  // background-color: #00ACC8 !important;
+  --el-button-text-color: white !important;
+  --el-button-bg-color: :#00ACC8 !important;
+}
+
+//type为text的颜色
+.el-button--primary.is-link,
+.el-button--primary.is-plain,
+.el-button--primary.is-text {
+  --el-button-text-color: var(--main-color) !important;
+}
+
+//type为text的颜色 点击时
+.el-button--primary.is-link,
+.el-button--primary.is-plain,
+.el-button--primary.is-text:active {
+  color: var(--main-color) !important;
+  background-color:rgba(255,255,255,0.6)!important;
+}
+//type为text的颜色 聚焦
+.el-button--primary.is-link,
+.el-button--primary.is-plain,
+.el-button--primary.is-text:focus {
+  color: var(--main-color) !important;
+  background-color: rgba(255,255,255,0.6) !important;
+}
+//type为text的颜色 鼠标悬浮时
+.el-button--primary.is-link,
+.el-button--primary.is-plain,
+.el-button--primary.is-text:hover {
+  color: var(--main-color) !important;
+  background-color:rgba(255,255,255,0.6) !important;
+
+}
+
+//tab字体颜色
+.el-tabs__item.is-active {
+  color: var(--main-color) !important;
+}
+.el-tabs__item:hover {
+  color: var(--main-color) !important;
+}
+//tab横线颜色 
+.el-tabs__active-bar {
+  background-color: var(--main-color) !important;
+  /* 这里设置为红色，可以根据需要修改颜色 */
+}
+
+// 进度条样式
+.el-step__head.is-success {
+  // border-color: var(--main-color);
+  border-color: var(--main-color) !important;
+}
+
+// 进度条样式
+.el-step__description.is-success {
+  color: var(--main-color) !important;
+}
+
+// 进度条样式
+.el-step__title.is-success {
+  color: var(--main-color) !important;
+}
+// 单选按钮
+.el-radio__input.is-checked .el-radio__inner {
+  background: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+  color: var(--main-color) !important;
+}
+// 开关按钮
+.el-switch.is-checked .el-switch__core {
+  background-color:var(--main-color) !important;
+  border-color:var(--main-color) !important;
+}
+.el-switch__label.is-active {
+  color:var(--main-color) !important;
+}
+//弹出框，确认,点击时样式
+
+// 下拉框选中颜色
+.el-select-dropdown__item.is-selected {
+  color:#00ACC8 !important;
+  font-weight: bold;
+}
+// 多选框后面字体颜色
+.el-checkbox__input.is-checked+.el-checkbox__label {
+  color:#00ACC8 !important;
+}
+// 多选框颜色
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color:#00ACC8 !important;
+  color:#00ACC8 !important;
+}
