@@ -477,7 +477,7 @@ const state = reactive({
     specCombination: [],  //选中子商品的规格
     extraGoods: [], //加购商品
 
-
+	goodsKey:null,
     memberFullSiteActivation: false,//全站会员开启
     isGroupPrivate: 0,
     seoInfo: {},
@@ -499,7 +499,33 @@ const videoPlayer = ref(null) //视频
 let channelStore = useChannelStore()
 let groupStore = useGroupStore()
 state.isGroupPrivate = groupStore.isPrivate
+const params=reactive({
+	storeId: state.storeId,
+	id: route.query.id
+})
 
+console.log("start")
+state.goodsKey='goods'+params.id
+const {data} = await useFetch('/api/h5/goods/items', {
+	query: params,
+	key:state.goodsKey,
+	watch:[params],
+	getCachedData: (key) => useNuxtApp().payload.data[key] || useNuxtApp().static.data[key]
+	})
+console.log("data",data.value)
+console.log("assign meta data")
+if(data.value!=null){
+	let seo=data.value.data.obj
+	useSeoMeta({
+		title:  seo.goodsName,
+		ogTitle:  seo.goodsName,
+		description:  seo.seoDescription,
+		ogDescription: seo.seoDescription,
+		ogImage:  seo?.goodsMainPhoto?.fullPath,
+		twitterCard: 'summary_large_image',
+	})
+}
+console.log("end")
 // 到货通知
 const arriveMsg = () => {
     let data = {
