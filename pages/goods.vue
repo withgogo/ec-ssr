@@ -1,9 +1,10 @@
 <template>
 	 <client-only>
 		<h1>Goods</h1>
-		<div>
-			<div>{{state.goodsInfo.title}}</div>
-			<div>{{state.goodsInfo.seoDescription}}</div>
+		<div v-if="state.goodsInfo">
+			<div >title: {{state.goodsInfo.goodsName}}</div>
+			<div >description:{{state.goodsInfo.seoDescription}}</div>
+			<img :src="state.goodsInfo?.goodsMainPhoto?.fullPath" width="100" height="100"/>
 			
 		</div>
 	 </client-only>
