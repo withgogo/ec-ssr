@@ -5,8 +5,8 @@
 			<div >title: {{state.goodsInfo.goodsName}}</div>
 			<div >description:{{state.goodsInfo.seoDescription}}</div>
 			<img :src="state.goodsInfo?.goodsMainPhoto?.fullPath" width="100" height="100"/>
-			
 		</div>
+		<el-button @click="back()">Back</el-button>
 	 </client-only>
 </template>
 
@@ -14,6 +14,7 @@
 
 	console.log("start fetch")
 	const route = useRoute();
+	const router = useRouter();
 	const params=reactive({
 		storeId: route.query.storeId,
 		id: route.query.id
@@ -41,6 +42,9 @@
 			ogImage:  seo?.goodsMainPhoto?.fullPath,
 			twitterCard: 'summary_large_image',
 		})
+	}
+	const back=()=>{
+		router.push({path:'/'})
 	}
 	onMounted(() => {
 		console.log("onMounted")
