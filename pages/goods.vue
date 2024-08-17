@@ -1,15 +1,24 @@
 <template>
 	 <client-only>
-		<div>Goods</div>
+		<h1>Goods</h1>
+		<div>
+			<div>{{state.goodsInfo.title}}</div>
+			<div>{{state.goodsInfo.seoDescription}}</div>
+			
+		</div>
 	 </client-only>
 </template>
 
-<script setup>
+<script setup>import { START_ALIGNMENT } from 'element-plus/es/components/virtual-list/src/defaults.mjs';
+
 	console.log("start fetch")
 	const route = useRoute();
 	const params=reactive({
 		storeId: route.query.storeId,
 		id: route.query.id
+	})
+	const state=reactive({
+		goodsInfo:null
 	})
 	console.log("params",params)
 	const {data} = await useFetch('/api/h5/goods/items', {
@@ -22,12 +31,13 @@
 	console.log("end fetch")
 	if(data.value!=null){
 		let seo=data.value.data.obj
+		state.goodsInfo=seo
 		useSeoMeta({
-			title:  seo.title,
-			ogTitle:  seo.title,
+			title:  seo.goodsName,
+			ogTitle:  seo.goodsName,
 			description:  seo.seoDescription,
 			ogDescription: seo.seoDescription,
-			ogImage:  seo.imagePath,
+			ogImage:  seo?.goodsMainPhoto?.fullPath,
 			twitterCard: 'summary_large_image',
 		})
 	}
