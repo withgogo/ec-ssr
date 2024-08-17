@@ -15,6 +15,7 @@ export default defineNuxtConfig({
 		// 需要写在public里面，否则客户端无法访问  public 命名空间中定义的，在服务器端和客户端都可以普遍访问
 		public: {
 			storeId: process.env.VUE_APP_STORE_ID,
+			baseUrl: process.env.VUE_APP_BASE_API,
 			isApp: process.env.VUE_APP_IS_APP, //是否app
 			ljPayBankCardSdk: process.env.VUE_APP_LJ_SDK_URL, // 新增信用卡sdk
 			serverType: process.env.VUE_APP_LJ_SERVER_TYPE,
