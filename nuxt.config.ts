@@ -151,7 +151,7 @@ export default defineNuxtConfig({
 		// 用于客户端代理
 		devProxy: {
 			"/api": {
-				target: process.env.VUE_APP_BASE_API, // 这里是接口地址
+				target: "http://ec-app.pqhealthy.com:8804",
 				changeOrigin: true,
 				prependPath: true,
 			},
