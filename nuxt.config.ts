@@ -74,7 +74,7 @@ export default defineNuxtConfig({
 					content: description,
 				},
 				{
-					name: "Keywords",
+					name: "keywords",
 					content: keywords,
 				},
 				{ property: "og:type", content: "website" },

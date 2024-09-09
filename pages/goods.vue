@@ -21,49 +21,30 @@
 		id: route.query.id
 	})
 	const state=reactive({
-		goodsInfo:null
+		goodsInfo:null,
+		goodsKey:''
 	})
 	console.log("params",params)
-	const {data} = await useFetch('/api/api/h5/goods/items', {
-	  query: params,
-	  key: params.id,
-	  watch:[params]
+	useAsyncData(state.goodsKey, async () => {
+		console.log("useAsyncData")
+		let seo=null
+		console.log("useFetch")
+		const {data} =await $fetch('/api/h5/goods/items', {query:params})
+		console.log("data",data)
+		console.log("end fetch")
+		if(data!=null){
+			seo=data.obj
+			state.goodsInfo=seo
+			useServerSeoMeta({
+				title:  ()=>seo.goodsName,
+				ogTitle:  ()=>seo.goodsName,
+				description:  ()=>seo.seoDescription,
+				ogDescription: ()=>seo.seoDescription,
+				ogImage:  ()=>seo?.goodsMainPhoto?.fullPath,
+				twitterCard: 'summary_large_image',
+			})
+		}
 	})
-	// const getGoods=(async ()=>{
-	// 	let res1=null
-	// 	res1=goodsItems(params).then(response=>{
-	// 		return response
-	// 	})
-	// 	return res1
-	// })
-	// const res =await getGoods()
-	
-	console.log("data",data.value)
-	console.log("end fetch")
-	if(data.value!=null){
-		let seo=data.value.data.obj
-		state.goodsInfo=seo
-		useSeoMeta({
-			title:  seo.goodsName,
-			ogTitle:  seo.goodsName,
-			description:  seo.seoDescription,
-			ogDescription: seo.seoDescription,
-			ogImage:  seo?.goodsMainPhoto?.fullPath,
-			twitterCard: 'summary_large_image',
-		})
-	}
-	// if(data.value!=null){
-	// 	let seo=data.value.data.obj
-	// 	state.goodsInfo=seo
-	// 	useSeoMeta({
-	// 		title:  seo.goodsName,
-	// 		ogTitle:  seo.goodsName,
-	// 		description:  seo.seoDescription,
-	// 		ogDescription: seo.seoDescription,
-	// 		ogImage:  seo?.goodsMainPhoto?.fullPath,
-	// 		twitterCard: 'summary_large_image',
-	// 	})
-	// }
 	const anotherGoodsId=()=>{
 		params.id='1333'
 		console.log("params",params)
