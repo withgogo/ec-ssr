@@ -345,25 +345,31 @@ export function computedDiscount(count) {
 
 // 判断当前设备
 export function getDeviceType() {
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-  if (
-    userAgent.match(/iPad/i) ||
-    userAgent.match(/iPhone/i) ||
-    userAgent.match(/iPod/i)
-  ) {
-    return "iOS"; // iOS device
-  } else if (userAgent.match(/Android/i)) {
-    return "Android"; // Android device
-  } else if (userAgent.match(/webOS/i) || userAgent.match(/Palm/i)) {
-    return "Palm"; // Palm device
-  } else if (userAgent.match(/BlackBerry/i) || userAgent.match(/IEMobile/i)) {
-    return "BlackBerry"; // BlackBerry device
-  } else if (userAgent.match(/Windows Phone/i)) {
-    return "Windows Phone"; // Windows Phone device
-  } else {
-    return "Unknown"; // Unknown device
+	var userAgent =null
+	if(navigator){
+		userAgent = navigator.userAgent || navigator.vendor || window.opera;
+	}
+  
+	if(userAgent){
+	 if (
+	   userAgent.match(/iPad/i) ||
+	   userAgent.match(/iPhone/i) ||
+	   userAgent.match(/iPod/i)
+	 ) {
+	   return "iOS"; // iOS device
+	 } else if (userAgent.match(/Android/i)) {
+	   return "Android"; // Android device
+	 } else if (userAgent.match(/webOS/i) || userAgent.match(/Palm/i)) {
+	   return "Palm"; // Palm device
+	 } else if (userAgent.match(/BlackBerry/i) || userAgent.match(/IEMobile/i)) {
+	   return "BlackBerry"; // BlackBerry device
+	 } else if (userAgent.match(/Windows Phone/i)) {
+	   return "Windows Phone"; // Windows Phone device
+	 } else {
+	   return "Unknown"; // Unknown device
+	 } 
   }
+  
 }
 //判断是不是line登陆
 export function isLineBrowser() {

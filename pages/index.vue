@@ -1,7 +1,7 @@
 <template>
 	 <client-only>
 		<h1 >home</h1>
-		<div @click="goToGoods()" style="border:1px firebrick solid; color:#ffffff;background-color: lightcoral; text-align:center; width:200px;"> go to Goods</div>
+		<el-button @click="goToGoods()" style="border:1px firebrick solid; color:#ffffff;background-color: lightcoral; text-align:center; width:200px;"> go to Goods</el-button>
 	 </client-only>
 </template>
 
