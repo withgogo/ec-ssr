@@ -1,6 +1,6 @@
 <template>
   <div  class="page">
-    <NuxtLayout :name="layout">
+    <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
   </div>
@@ -9,9 +9,10 @@
 <script setup>
 import { onMounted, onBeforeMount, onUnmounted, reactive } from "vue";
 //如果是server 先设置访问的是pc还是mb
+
 if (process.server) {
   const headers = useRequestHeaders();
-  let layout = deviceType(headers["user-agent"]).type == "pc" ? "pc" : "mobile";
+	
 
 }
 
